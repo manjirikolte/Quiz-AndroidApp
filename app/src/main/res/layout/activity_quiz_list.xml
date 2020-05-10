@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Quiz_list">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingTop="40dp"
+        android:paddingRight="30dp"
+        android:text="@string/category"
+        android:textColor="@color/blueShade2"
+        android:textSize="50sp"
+        app:fontFamily="@font/bigshot_one" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/listextra_background"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/list_gradient"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/science_btn"
+                            style="@style/CatagoryButton_style"
+                            android:text="@string/science"
+                            android:onClick="jumpToQuiz"/>
+                        <Button
+                            android:id="@+id/math_btn"
+                            style="@style/CatagoryButton_style"
+                            android:text="@string/Math"
+                            android:onClick="jumpToQuiz"/>
+                        <Button
+                            android:id="@+id/history_btn"
+                            style="@style/CatagoryButton_style"
+                            android:text="@string/History"
+                            android:onClick="jumpToQuiz"/>
+                        <Button
+                            android:id="@+id/gk_btn"
+                            style="@style/CatagoryButton_style"
+                            android:text="@string/General_Knowledge"
+                            android:onClick="jumpToQuiz"/>
+                        <Button
+                            android:id="@+id/fun_btn"
+                            style="@style/CatagoryButton_style"
+                            android:text="@string/fun_quiz"
+                            android:onClick="jumpToQuiz"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

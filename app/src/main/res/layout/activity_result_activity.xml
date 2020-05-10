@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDarkblue"
+    android:orientation="vertical"
+    tools:context=".Result_activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/score"
+                android:textColor="@color/colorWhite"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/aclonica" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:gravity="center"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_margin="40dp"
+                    android:background="@drawable/mostlightcolor"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/lightbluecolor"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="20dp"
+                            android:background="@drawable/bluecolor"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="25dp"
+                                android:background="@drawable/firstblue_color"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/score"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="end"
+                                    android:text="@string/mQ2_opt4"
+                                    android:textColor="@color/colorResult"
+                                    android:textSize="60sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/outOf_tv"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="@string/_5"
+                                    android:textColor="@color/blueShade2"
+                                    android:textSize="50sp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/message_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/attempt"
+                android:textColor="@color/colorWhite"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                app:fontFamily="@font/aclonica" />
+
+            <Button
+                android:id="@+id/list_btn"
+                style="@style/TextView_questionHeadingStyle"
+                android:layout_margin="30dp"
+                android:text="@string/next" />
+            <Button
+                android:id="@+id/exit_btn"
+                style="@style/TextView_questionHeadingStyle"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/exitbtn_design"
+                android:text="@string/exit" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+
+    <string name="science">Science</string>
+    <string name="Math">Math</string>
+    <string name="History">History</string>
+    <string name="General_Knowledge">General Knowledge</string>
+    <string name="Fun">Fun</string>
+    <string name="submit">Submit</string>
+    <string name="fun_quiz">Fun Quiz</string>
+    <string name="category">Category</string>
+    <string name="quiz">Quiz</string>
+    <string name="get_started">Get Started</string>
+    <string name="slogan">let\'s solve quiz</string>
+    <string name="textview">TextView</string>
+
+    <string name="Question_1">Question 1</string>
+    <string name="Question_2">Question 2</string>
+    <string name="Question_3">Question 3</string>
+    <string name="Question_4">Question 4</string>
+    <string name="Question_5">Question 5</string>
+    <string name="Question_6">Question 6</string>
+    <string name="Question_7">Question 7</string>
+    <!-- Fun Quiz Questions -->
+    <string name="fQuestion1">You\'re 3rd place right now in a race. What place are you in when you pass the person in 2nd place?</string>
+    <string name="fQuestion2">How many months have 28 days?</string>
+    <string name="fQuestion3">How many 0.5cm slices of bread can you cut from a whole bread that\'s 25cm long? </string>
+    <string name="fQuestion4">The answer is really big. </string>
+    <string name="fQuestion5">Divide 30 by half and add ten.</string>
+    <!-- Fun Quiz Options -->
+    <string name="fQ1_opt1">1st</string>
+    <string name="fQ1_opt2">2nd</string>
+    <string name="fQ1_opt3">3rd</string>
+    <string name="fQ1_opt4">None of the above.</string>
+    <string name="fQ2_opt1">2</string>
+    <string name="fQ2_opt2">1</string>
+    <string name="fQ2_opt3">All of them.</string>
+    <string name="fQ2_opt4">Depends if there\'s a leap year or not.</string>
+    <string name="fQ3_opt1">10</string>
+    <string name="fQ3_opt2">5</string>
+    <string name="fQ3_opt3">40</string>
+    <string name="fQ3_opt4">None of the above.</string>
+    <string name="fQ4_opt1">THE ANSWER.</string>
+    <string name="fQ4_opt2">Really big.</string>
+    <string name="fQ4_opt3">An elephant.</string>
+    <string name="fQ4_opt4">The data given is insufficient.</string>
+    <string name="fQ5_opt1">40.5</string>
+    <string name="fQ5_opt2">50</string>
+    <string name="fQ5_opt3">70</string>
+    <string name="fQ5_opt4">I know this is a trick question, so NONE. Ha!</string>
+
+    <!-- Science Quiz Questions -->
+    <string name="sQuestion1">Brass gets discoloured in air because of the presence of which of the following gases in air?</string>
+    <string name="sQuestion2">Which of the following is a non metal that remains liquid at room temperature?</string>
+    <string name="sQuestion3">Chlorophyll is a naturally occurring chelate compound in which central metal is</string>
+    <string name="sQuestion4">Which of the following is used in pencils?</string>
+    <string name="sQuestion5">Which of the following metals forms an amalgam with other metals?</string>
+    <string name="sQuestion6">What is chemical formula of Water?</string>
+    <string name="sQuestion7">Which of the gas is known as green house gas? (Negative Marking Question)</string>
+
+    <!-- Science Quiz Options -->
+    <string name="sQ1_opt1">Oxygen</string>
+    <string name="sQ1_opt2">Hydrogen sulphide</string>
+    <string name="sQ1_opt3">Carbon dioxide</string>
+    <string name="sQ1_opt4">Nitrogen</string>
+    <string name="sQ2_opt1">Phosphorous</string>
+    <string name="sQ2_opt2">Bromine</string>
+    <string name="sQ2_opt3">Chlorine</string>
+    <string name="sQ2_opt4">Helium</string>
+    <string name="sQ3_opt1">copper</string>
+    <string name="sQ3_opt2">magnesium</string>
+    <string name="sQ3_opt3">iron</string>
+    <string name="sQ3_opt4">calcium</string>
+    <string name="sQ4_opt1">Graphite</string>
+    <string name="sQ4_opt2">Silicon</string>
+    <string name="sQ4_opt3">Charcoal</string>
+    <string name="sQ4_opt4">Phosphorous</string>
+    <string name="sQ5_opt1">Tin</string>
+    <string name="sQ5_opt2">Mercury</string>
+    <string name="sQ5_opt3">Lead</string>
+    <string name="sQ5_opt4">Zinc</string>
+    <string name="sQ7_opt1">Methane</string>
+    <string name="sQ7_opt2">Nitrous oxide</string>
+    <string name="sQ7_opt3">Carbon dioxide</string>
+    <string name="sQ7_opt4">Hydrogen</string>
+
+    <!-- Math Quiz Questions -->
+    <string name="mQuestion1">How many digits are there in Hindu-Arabic System?</string>
+    <string name="mQuestion2">Among the following which whole number has no predecessor?</string>
+    <string name="mQuestion3">What does 1 googol means?</string>
+    <string name="mQuestion4">Which among the following is the largest known number in the world?</string>
+    <string name="mQuestion5">Among the following which natural number has no predecessor?</string>
+    <!-- Math Quiz Options -->
+    <string name="mQ1_opt1">10</string>
+    <string name="mQ1_opt2">20</string>
+    <string name="mQ1_opt3">30</string>
+    <string name="mQ1_opt4">40</string>
+    <string name="mQ2_opt1">100</string>
+    <string name="mQ2_opt2">200</string>
+    <string name="mQ2_opt3">1</string>
+    <string name="mQ2_opt4">0</string>
+    <string name="mQ3_opt1"> 1 followed by hundred zeros</string>
+    <string name="mQ3_opt2">1 followed by thousand zeros</string>
+    <string name="mQ3_opt3">1 followed by ten thousand zeros</string>
+    <string name="mQ3_opt4"> 1 followed by 1 lakh zeros</string>
+    <string name="mQ4_opt1">∞</string>
+    <string name="mQ4_opt2">googol</string>
+    <string name="mQ4_opt3">googolplex</string>
+    <string name="mQ4_opt4">gram</string>
+    <string name="mQ5_opt1">-1</string>
+    <string name="mQ5_opt2">0</string>
+    <string name="mQ5_opt3">1</string>
+    <string name="mQ5_opt4">e</string>
+
+    <!-- GK Quiz Questions -->
+    <string name="gQuestion1"> Roger Federer is belongs to</string>
+    <string name="gQuestion2"> Lata Mangeshkar is belongs to</string>
+    <string name="gQuestion3">who was the first nobel prize winner in india</string>
+    <string name="gQuestion4"> who was the Second nobel prize winner in india</string>
+    <string name="gQuestion5">In which subject was the Nobel Prize awarded to C. V. Raman</string>
+    <!-- GK Quiz Options -->
+    <string name="gQ1_opt1">Cricket</string>
+    <string name="gQ1_opt2">Tennis</string>
+    <string name="gQ1_opt3">Football</string>
+    <string name="gQ1_opt4">Hockey</string>
+    <string name="gQ2_opt1">Singing</string>
+    <string name="gQ2_opt2">Actress</string>
+    <string name="gQ2_opt3">Sports</string>
+    <string name="gQ2_opt4">None of These</string>
+    <string name="gQ3_opt1">C. V. Raman</string>
+    <string name="gQ3_opt2">Rabindranath Tagore</string>
+    <string name="gQ3_opt3">Amartya Sen</string>
+    <string name="gQ3_opt4">None of the above.</string>
+    <string name="gQ4_opt1">Har Gobind Khorana</string>
+    <string name="gQ4_opt2">Kailash Satyarthi</string>
+    <string name="gQ4_opt3">C. V. Raman</string>
+    <string name="gQ4_opt4">None of These</string>
+    <string name="gQ5_opt1">Peace</string>
+    <string name="gQ5_opt2">Economic studies</string>
+    <string name="gQ5_opt3">Physics</string>
+    <string name="gQ5_opt4">Chemistry</string>
+
+    <!-- History Quiz Questions -->
+    <string name="hQuestion1">Which country gave the Statue of Liberty as a gift to the United States of America?</string>
+    <string name="hQuestion2">Which war started in 1939 and ended in 1945?</string>
+    <string name="hQuestion3">Second battle of Panipat was fought between?</string>
+    <string name="hQuestion4">Who was the second man to walk on the moon?</string>
+    <string name="hQuestion5">At which age Gautam Buddha got Nirvana?</string>
+    <!-- Fun Quiz Options -->
+    <string name="hQ1_opt1">England</string>
+    <string name="hQ1_opt2">France</string>
+    <string name="hQ1_opt3">Canada</string>
+    <string name="hQ1_opt4">Mexico</string>
+    <string name="hQ2_opt1">World War I</string>
+    <string name="hQ2_opt2">The Vietnam War</string>
+    <string name="hQ2_opt3">World War II</string>
+    <string name="hQ2_opt4">The falklands War</string>
+    <string name="hQ3_opt1">Babur and Lodi</string>
+    <string name="hQ3_opt2">Akbar and Hemu</string>
+    <string name="hQ3_opt3">Mughal and British</string>
+    <string name="hQ3_opt4">Akbar and Lodi</string>
+    <string name="hQ4_opt1">Buzz Aldrin</string>
+    <string name="hQ4_opt2">Neil Armstrong</string>
+    <string name="hQ4_opt3">Mark hamill</string>
+    <string name="hQ4_opt4">Astronaut Audrey</string>
+    <string name="hQ5_opt1">24</string>
+    <string name="hQ5_opt2">35</string>
+    <string name="hQ5_opt3">38</string>
+    <string name="hQ5_opt4">42</string>
+
+    <string name="_5">/5</string>
+    <string name="_10">/10</string>
+    <string name="score">Score</string>
+    <string name="next">Next</string>
+    <string name="exit">Exit</string>
+    <string name="attempt">Good Attempt Try Again !</string>
+    <string name="oh_yeah">Oh Yeah !!</string>
+    <string name="answer">Answer</string>
+    <string name="water">water</string>
+</resources>

@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LinearLayout_questionStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">@drawable/radiogroup_background</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="TextView_questionHeadingStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btndesign</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView_questionStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="SubmitButton_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/submit</item>
+        <item name="android:background">@drawable/list_gradient</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginBottom">40dp</item>
+    </style>
+
+    <style name="RadioButton_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TitleText_Style">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">#2876F9</item>
+    <item name="android:textSize">36sp</item>
+    <item name="android:paddingLeft">20dp</item>
+    <item name="android:paddingRight">20dp</item>
+    </style>
+
+    <style name="CatagoryButton_style">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">#FFFFFF</item>
+    <item name="android:textSize">24sp</item>
+    <item name="android:layout_marginTop">20dp</item>
+    <item name="android:layout_marginLeft">30dp</item>
+    <item name="android:background">@drawable/listbtn_background</item>
+    <item name="android:layout_marginBottom">20dp</item>
+    <item name="android:layout_marginRight">30dp</item>
+    </style>
+
+</resources>
