@@ -32,7 +32,8 @@
             android:orientation="vertical">
 
             <LinearLayout
-               style="@style/LinearLayout_questionStyle">
+               style="@style/LinearLayout_questionStyle"
+                >
 
                 <TextView
                     android:id="@+id/textView10"

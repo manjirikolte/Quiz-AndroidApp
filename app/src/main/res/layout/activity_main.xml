@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/dark_background"
+    android:background="@drawable/background"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/quiz"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/colorPrimary"
                 android:textSize="90sp"
                 app:fontFamily="@font/aclonica" />
 
@@ -33,7 +33,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="350dp"
+                    android:layout_height="450dp"
                     android:gravity="center"
                     android:orientation="vertical">
 
