@@ -4,17 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/dark_background"
+    android:background="@drawable/background"
     android:orientation="vertical"
     tools:context=".Result_activity">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
@@ -22,7 +23,7 @@
                 android:layout_marginTop="20dp"
                 android:gravity="center"
                 android:text="@string/score"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/colorPrimary"
                 android:textSize="50sp"
                 android:textStyle="bold"
                 app:fontFamily="@font/aclonica" />
@@ -32,24 +33,28 @@
                 android:layout_height="350dp"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <LinearLayout
                     android:layout_width="250dp"
                     android:layout_height="250dp"
                     android:layout_margin="40dp"
                     android:background="@drawable/mostlightcolor"
                     android:orientation="vertical">
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_margin="20dp"
                         android:background="@drawable/lightbluecolor"
                         android:orientation="vertical">
+
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="20dp"
                             android:background="@drawable/bluecolor"
                             android:orientation="vertical">
+
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
@@ -82,6 +87,7 @@
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
+
             <TextView
                 android:id="@+id/message_tv"
                 android:layout_width="match_parent"
@@ -98,6 +104,7 @@
                 style="@style/TextView_questionHeadingStyle"
                 android:layout_margin="30dp"
                 android:text="@string/next" />
+
             <Button
                 android:id="@+id/exit_btn"
                 style="@style/TextView_questionHeadingStyle"
