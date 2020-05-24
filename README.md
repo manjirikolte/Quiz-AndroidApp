@@ -29,6 +29,7 @@ App gracefully handles displaying all the content on screen when rotated.</li>
  <br><br>
  <img src="https://github.com/manjirikolte/Quiz-AndroidApp/blob/master/Screenshots/Screenshot%203.jpg" width="320" height="580">  
  | <img src="https://github.com/manjirikolte/Quiz-AndroidApp/blob/master/Screenshots/Screenshot%204.jpg" width="320" height="580">
+ <br><br>
  <img src="https://github.com/manjirikolte/Quiz-AndroidApp/blob/master/Screenshots/Screenshot%205.jpg" width="320" height="580">
  | <img src="https://github.com/manjirikolte/Quiz-AndroidApp/blob/master/Screenshots/Screenshot%206.jpg" width="320" height="580">
  
